@@ -1,4 +1,5 @@
 # 利用springboot缓存cache（ConcurrenMapCacheManager）
+- 代码来自github @forezp 感谢大佬
 - 每一次操作控制延时Thread.sleep()来模拟数据库操作延时
 - 不使用其他第三方缓存依赖的时候，springboot自动采用ConcurrenMapCacheManager作为缓存管理器
 - 在启动类中添加注解@EnableCaching开启缓存控制
